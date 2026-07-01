@@ -1,3 +1,4 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
@@ -14,11 +15,11 @@ const nextConfig = {
     if (!isServer) {
       config.optimization = {
         ...config.optimization,
-        runtimeChunk: 'single',
-      }
+        runtimeChunk: "single",
+      };
     }
-    return config
+    return config;
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;

@@ -1,0 +1,178 @@
+export const SERVICES = [
+  { id: 1, name: 'Coiffage', category: 'Cheveux', icon: 'Scissors' },
+  { id: 2, name: 'Coloration', category: 'Cheveux', icon: 'Palette' },
+  { id: 3, name: 'Traitement Cheveux', category: 'Cheveux', icon: 'Sparkles' },
+  { id: 4, name: 'Extensions Cheveux', category: 'Cheveux', icon: 'Zap' },
+  { id: 5, name: 'Coiffure Mariée', category: 'Cheveux', icon: 'Heart' },
+  { id: 6, name: 'Maquillage', category: 'Maquillage', icon: 'Eye' },
+  { id: 7, name: 'Maquillage Mariée', category: 'Maquillage', icon: 'Heart' },
+  { id: 8, name: 'Soin du Visage', category: 'Soins', icon: 'Moon' },
+  { id: 9, name: 'Traitement Facial', category: 'Soins', icon: 'Wind' },
+  { id: 10, name: 'Hydrafacial', category: 'Soins', icon: 'Droplet' },
+  { id: 11, name: 'Soin du Corps', category: 'Soins', icon: 'Leaf' },
+  { id: 12, name: 'Massage', category: 'Bien-être', icon: 'Hand' },
+  { id: 13, name: 'Manucure', category: 'Ongles', icon: 'Fingers' },
+  { id: 14, name: 'Pédicure', category: 'Ongles', icon: 'FootPrints' },
+  { id: 15, name: 'Gel Nails', category: 'Ongles', icon: 'Sparkles' },
+  { id: 16, name: 'Nail Art', category: 'Ongles', icon: 'Palette' },
+  { id: 17, name: 'Extensions Cils', category: 'Cils', icon: 'Eye' },
+  { id: 18, name: 'Lash Lift', category: 'Cils', icon: 'Zap' },
+  { id: 19, name: 'Sourcils Shaping', category: 'Sourcils', icon: 'Lightbulb' },
+  { id: 20, name: 'Brow Lamination', category: 'Sourcils', icon: 'Layers' },
+  { id: 21, name: 'Épilation', category: 'Épilation', icon: 'Flame' },
+  { id: 22, name: 'Threading', category: 'Épilation', icon: 'Scissors' },
+  { id: 23, name: 'Packages Beauté', category: 'Packages', icon: 'Gift' },
+];
+
+export const TESTIMONIALS = [
+  {
+    id: 1,
+    name: 'Sarah M.',
+    text: 'Une expérience absolument magnifique! L\'équipe de Veloura est professionnelle, accueillante et très compétente. Je recommande vivement!',
+    rating: 5,
+    service: 'Extensions Cils',
+  },
+  {
+    id: 2,
+    name: 'Amina B.',
+    text: 'Le salon est luxueux et relaxant. Les produits utilisés sont de haute qualité et les résultats sont parfaits. Je suis revenue plusieurs fois!',
+    rating: 5,
+    service: 'Soin du Visage',
+  },
+  {
+    id: 3,
+    name: 'Fatima K.',
+    text: 'Meilleure coiffure de mariée que j\'ai jamais eue! L\'équipe a écouté mes souhaits et créé quelque chose de magique.',
+    rating: 5,
+    service: 'Coiffure Mariée',
+  },
+  {
+    id: 4,
+    name: 'Leila D.',
+    text: 'Veloura Beauty Lounge est mon endroit préféré pour me détendre et me dorloter. Fortement recommandé!',
+    rating: 5,
+    service: 'Massage',
+  },
+  {
+    id: 5,
+    name: 'Mariam S.',
+    text: 'Les professionnels sont très attentifs aux détails. Mes ongles et mes cils sont absolument parfaits!',
+    rating: 5,
+    service: 'Manucure & Extensions Cils',
+  },
+  {
+    id: 6,
+    name: 'Yasmin H.',
+    text: 'Un vrai havre de paix et de beauté. L\'atmosphère est si calme et accueillante. Bravo à toute l\'équipe!',
+    rating: 5,
+    service: 'Maquillage Professionnel',
+  },
+];
+
+export const GALLERY_IMAGES = [
+  {
+    id: 1,
+    src: '/images/nails-1.jpg',
+    alt: 'Manucure brillante premium',
+    category: 'Ongles',
+  },
+  {
+    id: 2,
+    src: '/images/nails-2.jpg',
+    alt: 'Design nail art bleu électrique',
+    category: 'Ongles',
+  },
+  {
+    id: 3,
+    src: '/images/lashes-1.jpg',
+    alt: 'Extensions cils volumineuses',
+    category: 'Cils',
+  },
+  {
+    id: 4,
+    src: '/images/makeup-1.jpg',
+    alt: 'Maquillage professionnel doré',
+    category: 'Maquillage',
+  },
+  {
+    id: 5,
+    src: '/images/nails-3.jpg',
+    alt: 'Manucure rouge classique élégante',
+    category: 'Ongles',
+  },
+  {
+    id: 6,
+    src: '/images/nails-4.jpg',
+    alt: 'Design nail art bleu métallique',
+    category: 'Ongles',
+  },
+  {
+    id: 7,
+    src: '/images/lashes-2.jpg',
+    alt: 'Cils naturels volumisés',
+    category: 'Cils',
+  },
+  {
+    id: 8,
+    src: '/images/nails-5.jpg',
+    alt: 'Manucure paillettes rouges',
+    category: 'Ongles',
+  },
+  {
+    id: 9,
+    src: '/images/nails-6.jpg',
+    alt: 'Nail design ambre avec glitter',
+    category: 'Ongles',
+  },
+  {
+    id: 10,
+    src: '/images/logo.jpg',
+    alt: 'Logo Veloura Beauty Lounge',
+    category: 'Salon',
+  },
+];
+
+export const WHY_CHOOSE_US = [
+  {
+    id: 1,
+    title: 'Professionnelles Expérimentées',
+    description: 'Notre équipe est composée de spécialistes qualifiés avec une expérience de plusieurs années.',
+    icon: 'Star',
+  },
+  {
+    id: 2,
+    title: 'Produits Premium',
+    description: 'Nous utilisons exclusivement des produits de haute qualité et reconnus internationalement.',
+    icon: 'ShoppingBag',
+  },
+  {
+    id: 3,
+    title: 'Soins Personnalisés',
+    description: 'Chaque client reçoit une attention particulière adaptée à ses besoins spécifiques.',
+    icon: 'Heart',
+  },
+  {
+    id: 4,
+    title: 'Ambiance Relaxante',
+    description: 'Un environnement luxueux conçu pour votre détente et bien-être absolu.',
+    icon: 'Flower2',
+  },
+  {
+    id: 5,
+    title: 'Hygiène Stricte',
+    description: 'Nous respectons les normes d\'hygiène les plus élevées pour votre sécurité.',
+    icon: 'Shield',
+  },
+  {
+    id: 6,
+    title: 'Équipements Modernes',
+    description: 'Technologie dernier cri et outils professionnels pour les meilleurs résultats.',
+    icon: 'Zap',
+  },
+  {
+    id: 7,
+    title: 'Satisfaction Garantie',
+    description: 'Votre satisfaction est notre priorité absolue. Nous nous engageons à l\'excellence.',
+    icon: 'Smile',
+  },
+];
